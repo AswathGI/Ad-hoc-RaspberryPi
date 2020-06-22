@@ -15,12 +15,12 @@ $ ifconfig
 
 <img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.04.02.png">
 
-In my case WiFi ip_address is set to 
+#### In my case WiFi ip_address is set to 
 > 100.89.173.31
 
 here the subnet of your ip_address is "100.89.173"
 
-And the WiFi port name is 
+#### And the WiFi port name is 
 > wlan0
 
 Remember these. 
