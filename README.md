@@ -13,4 +13,4 @@ $ sudo apt-get upgrade
 $ ifconfig
 ```
 
-<img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200">
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.04.02.png">
