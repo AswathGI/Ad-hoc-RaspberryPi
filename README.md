@@ -26,3 +26,21 @@ here the subnet of your ip_address is "100.89.173"
 Remember these. 
 
 ## Configure Network Interface
+
+### Go to network setting Directory
+```shell
+$ cd /etc/network/
+```
+#### Then type check the list of files available
+```shell
+$ ls
+```
+#### You should find a file name called 
+> interfaces
+
+We have to edit this file now. 
+
+#### Go to editing mode by typing in:
+```shell
+$ sudo nano interfaces
+```
