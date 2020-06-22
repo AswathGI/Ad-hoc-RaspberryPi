@@ -45,3 +45,20 @@ We have to edit this file now.
 $ sudo nano interfaces
 ```
 ### You should see something like this
+< img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.17.26.png">
+
+#### Now add the following lines into this file: 
+```shell
+auto lo
+iface lo inet loopback
+
+iface eth0 inet manual
+
+auto wlan0
+iface wlan0 inet static
+ address 100.89.170.51
+ netmask 255.255.255.0
+ wireless-channel 1
+ wireless-essid Raspberry Pi
+ wireless-mode ad-hoc
+```
