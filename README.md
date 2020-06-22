@@ -44,3 +44,4 @@ We have to edit this file now.
 ```shell
 $ sudo nano interfaces
 ```
+### You should see something like this
