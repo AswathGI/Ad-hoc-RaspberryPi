@@ -73,3 +73,12 @@ Note: Here I have entered " 100.89.170 " which is different from my original WiF
 
 This will be your SSID of this Ad-Hoc network. You can change "Raspberry Pi" to any name here. And that will be set as your SSID. 
 
+#### Finally keep the rest as same as it is, Save the file and Exit. 
+
+
+## Creating DHCP Server
+### while there in the /etc/network/ directory install DHCP server package by typing in: 
+```shell
+$ sudo apt-get install dhcp-server
+```
+
