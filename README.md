@@ -68,6 +68,7 @@ iface wlan0 inet static
 This sets your WiFi address to be Static
 
 ###### Next change the subnet. 
+
 > address 100.89.170.51
 
 
