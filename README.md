@@ -60,7 +60,7 @@ iface wlan0 inet static
 
 #### Makes changes to these following, according to your wish
 
-##### Replace wlan0 to your WiFi device name in the following lines: 
+##### Replace wlan0 to your WiFi port name in the following lines: 
 > auto wlan0
 
 > iface wlan0 inet static
@@ -101,8 +101,8 @@ $ sudo nano /etc/default/isc-dhcp-server
 <img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.28.40.png" >
 
 Inside this file, you should see something like this. 
-Here, Enter the WiFi device name in any of the interfaces. 
-I have used interfaces v4 and it looks like this: 
+Here, Enter the WiFi port name in any of these interfaces. 
+I have used interfaces v4 as my interface and it looks like this: 
 > INTERFACESv4="wlan0"
 
 #### Finally, Save and Exit.
