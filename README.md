@@ -63,7 +63,7 @@ iface wlan0 inet static
  wireless-mode ad-hoc
 ```
 
-##### Makes changes to these following, accordingly to your wish
+##### Makes changes to these following according to your wish
 > address 100.89.170.51
 
 First change the subnet. 
