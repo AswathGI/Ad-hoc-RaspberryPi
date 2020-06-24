@@ -77,7 +77,7 @@ This will be your SSID of this Ad-Hoc network. You can change "Raspberry Pi" to 
 
 
 ## Creating DHCP Server
-### while there in the /etc/network/ directory install DHCP server package by typing in: 
+#### While being there in the /etc/network/ directory install DHCP server package by typing in: 
 ```shell
 $ sudo apt-get install dhcp-server
 ```
