@@ -60,21 +60,21 @@ iface wlan0 inet static
 
 #### Makes changes to these following, according to your wish
 
-###### Replace wlan0 to your WiFi device name in the following lines: 
+##### Replace wlan0 to your WiFi device name in the following lines: 
 > auto wlan0
 
 > iface wlan0 inet static
 
 This sets your WiFi address to be Static
 
-###### Next change the subnet. 
+##### Next change the subnet. 
 
 > address 100.89.170.51
 
 
 Note: Here I have entered " 100.89.170 " which is different from my original WiFi router subnet (100.89.173) that we checked ealier. Please make sure that these subnets are different from you original router. In the finall line I have given 51, you can use any number from 00 - 999. Finall remember this address. 
 
-###### Replace SSID
+##### Replace SSID
 > wireless-essid Raspberry Pi
 
 This will be your SSID of this Ad-Hoc network. You can change "Raspberry Pi" to any name here. And that will be set as your SSID. 
@@ -105,5 +105,5 @@ Here, Enter the WiFi device name in any of the interfaces.
 I have used interfaces v4 and it looks like this: 
 > INTERFACESv4="wlan0"
 
-##### Save and Exit.
+#### Finally, Save and Exit.
 
