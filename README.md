@@ -90,7 +90,7 @@ $ sudo apt-get install isc-dhcp-server
 
 Once this is installed, we need to change few setting in the following files. 
 
-### Add WiFi device name
+### Make changes in isc-dhcp-server file
 
 Open isc-dhcp-server file by typing in: 
 ```shell
