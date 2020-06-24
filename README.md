@@ -62,3 +62,14 @@ iface wlan0 inet static
  wireless-essid Raspberry Pi
  wireless-mode ad-hoc
 ```
+
+##### Makes changes to these following, accordingly to your wish
+> address 100.89.170.51
+
+First change the subnet. 
+Note: Here I have entered " 100.89.170 " which is different from my original WiFi router subnet (100.89.173) that we checked ealier. Please make sure that these subnets are different from you original router. In the finall line I have given 51, you can use any number from 00 - 999. Finall remember this address. 
+
+> wireless-essid Raspberry Pi
+
+This will be your SSID of this Ad-Hoc network. You can change "Raspberry Pi" to any name here. And that will be set as your SSID. 
+
