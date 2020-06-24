@@ -60,8 +60,9 @@ iface wlan0 inet static
 
 #### Makes changes to these following, according to your wish
 
-Replace wlan0 to your WiFi device name to the following lines: 
+Replace wlan0 to your WiFi device name in the following lines: 
 > auto wlan0
+
 > iface wlan0 inet static
 
 This sets your WiFi address to be Static
