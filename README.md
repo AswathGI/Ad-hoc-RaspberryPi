@@ -49,11 +49,6 @@ $ sudo nano interfaces
 
 #### Now add the following lines into this file: 
 ```shell
-auto lo
-iface lo inet loopback
-
-iface eth0 inet manual
-
 auto wlan0
 iface wlan0 inet static
  address 100.89.170.51
@@ -63,7 +58,14 @@ iface wlan0 inet static
  wireless-mode ad-hoc
 ```
 
-##### Makes changes to these following according to your wish
+#### Makes changes to these following, according to your wish
+
+Replace wlan0 to your WiFi device name to the following lines: 
+> auto wlan0
+> iface wlan0 inet static
+
+This sets your WiFi address to be Static
+
 > address 100.89.170.51
 
 First change the subnet. 
@@ -91,5 +93,13 @@ Open isc-dhcp-server file by typing in:
 $ sudo nano /etc/default/isc-dhcp-server
 ```
 
-##### You should see something like this initially
+##### isc-dhcp-server file
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.28.40.png" >
+
+Inside this file, you should see something like this. 
+Here, Enter the WiFi device name in any of the interfaces. 
+I have used interfaces v4 and it looks like this: 
+> INTERFACESv4="wlan0"
+
+##### Save and Exit.
 
