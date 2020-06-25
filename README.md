@@ -107,3 +107,10 @@ I have used interfaces v4 as my interface and it looks like this:
 
 #### Finally, Save and Exit.
 
+### Next, make changes in dhcpd.conf file
+
+Enter into the file by typing this command: 
+```shell
+$ sudo nano /etc/dhcp/dhcpd.conf
+```
+
