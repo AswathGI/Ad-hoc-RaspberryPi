@@ -113,7 +113,22 @@ Enter into the file by typing this command:
 ```shell
 $ sudo nano /etc/dhcp/dhcpd.conf
 ```
-##### The file should contain following lines. 
+##### The file should look something like this. 
 <img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.06.30.png" >
 
-Now, you have to make few changes.
+#### Now, you have to make few changes.
+##### Set Domain name
+> option domain-name "example.org";
+
+This is completely an optional step. If you don't have any domain name to be set, you can skip this step, but follow from the next step.
+If you have a Domain name, replace "example.org" with your domain name. 
+
+##### Set the Domain-name Server
+Type this line below the Domain name.
+> option domain-name-servers 8.8.8.8
+
+I'm setting my server as "8.8.8.8" if you have set a server already, you can use that name here, else follow the same.
+
+##### Authenticate
+
+
