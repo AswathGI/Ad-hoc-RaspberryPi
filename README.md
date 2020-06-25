@@ -116,7 +116,7 @@ $ sudo nano /etc/dhcp/dhcpd.conf
 ##### The file should look something like this. 
 <img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.06.30.png" >
 
-#### Now, you have to make few changes.
+#### Now make following changes in this file.
 ##### Set Domain name
 > option domain-name "example.org";
 
@@ -129,6 +129,10 @@ Type this line below the Domain name.
 
 I'm setting my server as "8.8.8.8" if you have set a server already, you can use that name here, else follow the same.
 
-##### Authenticate
+##### Authenticate DHCP Server
+
+Just uncomment "authenticate" as shown in this figure 
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.06.30.png" >
+
 
 
