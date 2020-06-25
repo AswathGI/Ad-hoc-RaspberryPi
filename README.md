@@ -1,4 +1,4 @@
-# Ad-hoc-RaspberryPi
+# Enabling AD-Hoc Network on your RPi
 
 ## Update the RPi
 ```shell
