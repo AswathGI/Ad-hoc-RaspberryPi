@@ -51,7 +51,7 @@ $ sudo nano interfaces
 ```shell
 auto wlan0
 iface wlan0 inet static
- address 100.89.170.51
+ address 100.89.171.51
  netmask 255.255.255.0
  wireless-channel 1
  wireless-essid Raspberry Pi
@@ -69,10 +69,10 @@ This sets your WiFi address to be Static
 
 ##### Next change the subnet. 
 
-> address 100.89.170.51
+> address 100.89.171.51
 
 
-Note: Here I have entered " 100.89.170 " which is different from my original WiFi router subnet (100.89.173) that we checked ealier. Please make sure that these subnets are different from you original router. In the finall line I have given 51, you can use any number from 00 - 999. Finall remember this address. 
+Note: Here I have entered " 100.89.171 " which is different from my original WiFi router subnet (100.89.173) that we checked ealier. Please make sure that these subnets are different from you original router. In the finall line I have given 51, you can use any number from 00 - 999. Finall remember this address. 
 
 ##### Replace SSID
 > wireless-essid Raspberry Pi
@@ -137,6 +137,41 @@ Just uncomment "authoritative" as shown in this figure. Once this done, it will 
 Uncomment this section and make following changes as shown in this figure. 
 <img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.07.53.png" >
 ##### Here..
+In the first line, the enter the same subnet that you gave in interfaces. In my case it was "100.89.171" and leave the netmask as it is if you haven't changed it in the interfaces file.
+After completing, this line should look like this:
+> subnet 100.89.171.0 netmask 255.255.255.0 
 
+Next give the Range for your subnet. This allows to designate a ip_address to other devices that are connected to this network. 
+I'm giving a range for 20 ip_address, and it should look like this: 
+> range 100.89.171.60 100.89.171.80;
+
+Change the domain and server name if you have replaced it earlier. 
+In my case it looks likes this: 
+> option domain-name-servers 8.8.8.8;
+
+> option domain-name "internal.example.org";
+
+Now type in the static ip_address that you gave in interfaces file.
+In my case it is: 
+> option routers 100.89.171.51;
+
+Use the same subnet for the broadcast-address.
+In my case it is: 
+> option broadcast-address 100.89.171.255;
+
+Finally, change the lease time, if you wish to. Else please skip and leave it as it is. 
+
+### Finally, Save & Exit file. 
+
+## Start the Ad-Hoc Network
+Once you have done all these steps in the /etc/network/ directory, exit from that directory by typing command: 
+```shell
+$ cd
+```
+### Restart the RPi by typing in command
+```shell
+$ sudo reboot
+```
+Your Pi should start the Ad-Hoc network and it should be visible on other devices under available WiFi signals. 
 
 
