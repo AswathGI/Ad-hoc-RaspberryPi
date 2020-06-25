@@ -114,6 +114,6 @@ Enter into the file by typing this command:
 $ sudo nano /etc/dhcp/dhcpd.conf
 ```
 ##### The file should contain following lines. 
-<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.28.40.png" >
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.06.30.png" >
 
 Now, you have to make few changes.
