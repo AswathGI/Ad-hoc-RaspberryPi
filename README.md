@@ -175,4 +175,4 @@ $ sudo reboot
 Your Pi should start the Ad-Hoc network and it should be visible on other devices under available WiFi signals. 
 
 
-## -----------x-x-x-x-----------
+##                   -----------x-x-x-x-----------
