@@ -129,10 +129,12 @@ Type this line below the Domain name.
 
 I'm setting my server as "8.8.8.8" if you have set a server already, you can use that name here, else follow the same.
 
-##### Authenticate DHCP Server
+##### Enable DHCP Server
 
-Just uncomment "authenticate" as shown in this figure 
-<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.06.30.png" >
+Just uncomment "authoritative" as shown in this figure 
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.31.33.png" >
+
+##### Configuration for internal subnet
 
 
 
