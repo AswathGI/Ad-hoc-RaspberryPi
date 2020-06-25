@@ -135,8 +135,8 @@ Just uncomment "authoritative" as shown in this figure. Once this done, it will 
 
 ##### Configuration for internal subnet
 Uncomment this section and make following changes as shown in this figure. 
-<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.31.33.png" >
-
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-25%20at%2001.07.53.png" >
+##### Here..
 
 
 
