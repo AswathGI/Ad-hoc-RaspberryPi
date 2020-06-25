@@ -130,11 +130,13 @@ Type this line below the Domain name.
 I'm setting my server as "8.8.8.8" if you have set a server already, you can use that name here, else follow the same.
 
 ##### Enable DHCP Server
-
-Just uncomment "authoritative" as shown in this figure 
+Just uncomment "authoritative" as shown in this figure. Once this done, it will enable DHCP server to run on RPi.
 <img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.31.33.png" >
 
 ##### Configuration for internal subnet
+Uncomment this section and make following changes as shown in this figure. 
+<img src="https://github.com/AswathGI/Ad-hoc-RaspberryPi/blob/master/Screenshot%202020-06-22%20at%2015.31.33.png" >
+
 
 
 
